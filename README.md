@@ -1,4 +1,4 @@
-# Automated Arch Linux package for Spotify
+# Automated Arch Linux package for i3-volume
 
 You can find a built package under the latest GitHub Actions run as an
 artifact.
@@ -16,8 +16,8 @@ there are [no issues with the filename][invalid artifact name characters]),
 and uploaded as an artifact to that run.
 
 The PKGBUILD and other necessary files are simply taken from the
-[AUR entry][AUR spotify]. AUR entries are just Git repositories. As such, they
-can be set as submodules of this repository.
+[AUR entry][AUR i3-volume]. AUR entries are just Git repositories. As such,
+they can be set as submodules of this repository.
 
 Keeping the submodule updated is then up to [GitHub-native Dependabot][]. Any
 updates to the AUR entry repository will trigger Dependabot to update this
@@ -27,5 +27,5 @@ submodule, which in turn will trigger the CI run.
 [Sighery's Arch Linux repository]: https://archrepo.sighery.com/
 [sighery/archbuilder]: https://hub.docker.com/r/sighery/archbuilder
 [Invalid artifact name characters]: https://github.com/actions/toolkit/blob/master/packages/artifact/docs/additional-information.md#Non-Supported-Characters
-[AUR spotify]: https://aur.archlinux.org/packages/spotify/
+[AUR i3-volume]: https://aur.archlinux.org/packages/i3-volume/
 [GitHub-native Dependabot]: https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/
